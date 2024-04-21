@@ -88,22 +88,10 @@ const App = () => {
   
       if (existingEdges.length >= 1) return false;
 
-      // Prevent circular connection within outgoers
-      const hasCycle = (node, visited = new Set()) => {
-        if (visited.has(node.id)) return false;
-
-        visited.add(node.id);
-
-        for (const outgoer of getOutgoers(node, nodes, edges)) {
-          if (outgoer.id === connection.source) return true;
-          if (hasCycle(outgoer, visited)) return true;
-        }
-      };
-
       // Prevent circular connection within one node
       if (target.id === connection.source) return false;
       
-      return !hasCycle(target);
+      return true;
     },
     [getNodes, getEdges],
   );
