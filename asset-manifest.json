@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/react_flow_test/static/css/main.fd075f66.css",
+    "main.js": "/react_flow_test/static/js/main.597ad713.js",
+    "index.html": "/react_flow_test/index.html",
+    "main.fd075f66.css.map": "/react_flow_test/static/css/main.fd075f66.css.map",
+    "main.597ad713.js.map": "/react_flow_test/static/js/main.597ad713.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fd075f66.css",
+    "static/js/main.597ad713.js"
+  ]
+}
