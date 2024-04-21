@@ -1,6 +1,7 @@
 {
   "name": "react-flow-test",
   "version": "0.1.0",
+  "homepage": "https://nataly-horbunova.github.io/react_flow_test",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
