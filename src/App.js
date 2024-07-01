@@ -4,7 +4,6 @@ import ReactFlow, {
   useNodesState,
   useEdgesState,
   Controls,
-  getOutgoers,
   useReactFlow,
 } from 'reactflow';
 import 'reactflow/dist/style.css';
